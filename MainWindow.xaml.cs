@@ -33,6 +33,7 @@ namespace MyBloknot
         {
             Form2 fr = new Form2();
             fr.Show();
+            this.Close();
 
         }
     }
