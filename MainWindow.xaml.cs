@@ -31,8 +31,9 @@ namespace MyBloknot
 
         private void Next_Click(object sender, RoutedEventArgs e)
         {
-            Form2 fr=new Form2();
+            Form2 fr = new Form2();
             fr.Show();
+
         }
     }
 }
