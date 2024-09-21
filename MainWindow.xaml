@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="Close" Width="100" Height="50" Content="Клик сюда" Click="Close_Click"></Button>
         <Label Name="HI" Width="120" Height="180" Content="Привет" VerticalAlignment="Top"></Label>
-        <CheckBox Name="Myau" Width="240" Height="260" Content ="Нажми сюда и" VerticalAlignment="Stretch"></CheckBox>
+        <CheckBox Name="Myau" Content ="Нажми сюда и" Margin="112,320,528,414"/>
         <Button Name="Next" Width=" 300" Height="50" Content="Переход на следующую страницу " VerticalAlignment="Bottom" Click="Next_Click"></Button>
     </Grid>
 </Window>
