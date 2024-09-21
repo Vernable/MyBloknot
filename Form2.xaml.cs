@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace MyBloknot
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Form2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Form2 : Page
     {
-        public MainWindow()
+        public Form2()
         {
             InitializeComponent();
-        }
-        private void Close_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
-        private void Next_Click(object sender, RoutedEventArgs e)
-        {
-            Form2 fr=new Form2();
-            fr.Show();
         }
     }
 }
